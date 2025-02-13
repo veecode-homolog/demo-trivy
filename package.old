@@ -2,6 +2,16 @@
   "name": "teste-trivy",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "cross-spawn": "7.0.6"
+  },
   "dependencies": {
     "next": "15.1.7",
     "react": "^19.0.0",

@@ -1,5 +1,6 @@
 FROM node:20-alpine AS base
-RUN apk update && apk upgrade --no-cache libcrypto3 libssl3 libc6-compat
+RUN apk update && apk upgrade --no-cache libcrypto3
+#RUN apk update && apk upgrade --no-cache libcrypto3 libssl3 libc6-compat
 
 FROM base AS deps
 #RUN apk add --no-cache 
