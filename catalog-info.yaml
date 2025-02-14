@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plugin-security-insights-demo
+  title: Plugin Security Insights-demo
+  description: |
+    Backstage plugin to add security insights for GitHub repos.
+  annotations:
+    github.com/project-slug: veecode-homolog/demo-trivy
+spec:
+  type: service
+  owner: user:default/admin
+  lifecycle: production
