@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.7",
-    "axios": "^1.6.0",
+    "axios": "^0.20",
+    "express": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^3",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
