@@ -1,11 +1,13 @@
-FROM node:20-alpine AS base
-RUN apk update && apk upgrade --no-cache libcrypto3 libssl3
+#FROM node:20-alpine AS base
+#RUN apk update && apk upgrade --no-cache libcrypto3 libssl3
 
 #RUN apk update && apk upgrade --no-cache libcrypto3
 #RUN apk update && apk upgrade --no-cache libcrypto3 libssl3 libc6-compat
 
+FROM node:20-alpine AS base
+
 FROM base AS deps
-#RUN apk add --no-cache 
+RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
