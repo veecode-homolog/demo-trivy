@@ -13,3 +13,4 @@ spec:
   type: service
   owner: user:default/admin
   lifecycle: production
+  partOf: cluster:default/teste-k8s-cluster
