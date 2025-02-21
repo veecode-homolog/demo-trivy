@@ -8,7 +8,7 @@ metadata:
   annotations:
     github.com/project-slug: veecode-homolog/demo-trivy
     veecode/cluster-name: teste-k8s-cluster
-    veecode/image-name: veecodeplatform/demo-trivy
+    veecode/image-name: ghcr.io/k8sgpt-ai/k8sgpt
 spec:
   type: service
   owner: user:default/admin
