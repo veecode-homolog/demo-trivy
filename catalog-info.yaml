@@ -7,10 +7,10 @@ metadata:
     Demo of vulnerabilities and security insights inside a project.
   annotations:
     github.com/project-slug: veecode-homolog/demo-trivy
-    veecode/cluster-name: teste-k8s-cluster
+    veecode/cluster-name: devportal-kubernetes
     veecode/image-name: veecodeplatform/demo-trivy
 spec:
   type: service
   owner: user:default/admin
   lifecycle: production
-  partOf: cluster:default/teste-k8s-cluster
+  partOf: cluster:default/devportal-kubernetes
