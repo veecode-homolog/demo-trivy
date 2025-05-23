@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: security-insights-demo
-  title: Security Insights-demo
+  name: demo-trivy
+  title: Security Insights demo
   description: |
     Demo of vulnerabilities and security insights inside a project.
   annotations:
